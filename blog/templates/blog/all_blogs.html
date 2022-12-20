@@ -1,1 +1,12 @@
-HEllo blog
+
+
+<h1>HEllo blog</h1>
+
+{% for blog in blogs %}
+
+<h1>{{ blog.title }}</h1>
+<h5>{{blog.date}}</h5>
+<h2>{{ blog.description }}</h2>
+
+
+{% endfor %}
